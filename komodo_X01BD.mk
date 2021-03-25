@@ -29,5 +29,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=WW_X01BD \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210305.006 7119741 release-keys"
 
+#Official
+KOMODO_VARIANT := RELEASE
+
+# Maintainer
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    org.komodo.maintainer=Wahyu-Hidayat
+
+
 # Build fingerprint
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys"
